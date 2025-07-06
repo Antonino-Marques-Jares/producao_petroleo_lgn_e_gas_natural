@@ -1,42 +1,41 @@
 # Produção mensal de petróleo, lgn e gas_natural no Brasil
 
-
 ![Porto](plataforma_de_petróleo.jpg)
 
 # Instalações Portuárias
 O mapa apresenta de forma **agrupada as instalações portuárias por Município** e informando o **Nome da Instalação, Tipo, Município, Estado e Endereço** das instalações no Município.
 
 # Visualize o mapa em:
-[Área de Trampo - Portos](https://www.areadetrampo.com.br/instalacoes-portuarias-particulares-agrupadas-por-municipio/)
+[Área de Trampo - Portos](https://www.areadetrampo.com.br/producao-mensal-de-petroleo-lgn-e-gas-natural-no-brasil/)
 
-# Fonte para Latitude e Longitude dos Municípios:
-
-### Informações de latitude e longitude dos Municípios Brasileiros
-* https://github.com/kelvins/municipios-brasileiros/blob/main/csv/estados.csv
-* https://github.com/kelvins/municipios-brasileiros/blob/main/csv/municipios.csv
-  
-### Informações sobre as Instalações Portuárias
-
-[![Gov BR](govbr.webp)](https://dados.gov.br/dados/conjuntos-dados/instalacoes-portuarias)
-  
 # Autor:
 
 **Antonino Marques Jares**
 
+# Fonte:
+[![GOVBR](govbr.webp)](https://dados.gov.br/dados/conjuntos-dados/producao-de-petroleo-e-gas-natural-por-estado-e-localizacao)
+
+# Arquivos csv a serem feitos download:
+
+- Dados - Produção de petróleo (metros cúbicos) 1997-2025
+- Dados - Produção de LGN (metros cúbicos) 1997-2025
+- Dados - Produção de gás natural (mil metros cúbicos) 1997-2025
+
 # Atualizado em:
 
-**03/07/2025**
+06/07/2025
 
 # Passo 1
-Fazer Download: 
-* https://dados.gov.br/dados/conjuntos-dados/instalacoes-portuarias
-* https://github.com/kelvins/municipios-brasileiros/blob/main/csv/estados.csv
-* https://github.com/kelvins/municipios-brasileiros/blob/main/csv/municipios.csv
+Fazer Download dos arquivos acima mencionados.
 
 # Passo 2
-Execute instalações_portuarias.ipynb
+Execute producao_petroleo_gas_lgn.ipynb
+Inicialmente vamos criar 3 dataframes: df_petroleo, df_gas_natural e df_lgn
+No primeiro gráfico juntaremos df_petroleo e df_lgn para apresentar em um gráfico pois ambos tem a mesma unidade de medida em metros cúbicos.
+No segundo gráfico utilizaremos df_gas_natural pois sua unidade de medida está em 1000 metros cúbicos
+Antes de gerar o gráfico criamos duas bases de dados uma para cada gráfico onde fazemos o somatório de produção mês de cada produto.
 
-Após a execução de todos os passos você vai gerar um arquivo portos.json que será incorporado ao html mapa_portos.html
+Após a execução de todos os passos você vai gerar 3 htmls o último tem os dois gráficos no mesmo html.
 
 
 
