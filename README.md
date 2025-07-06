@@ -29,10 +29,14 @@ O mapa apresenta de forma **agrupada as instalações portuárias por Município
 Fazer Download dos arquivos acima mencionados.
 
 # Passo 2
-Execute producao_petroleo_gas_lgn.ipynb
-Inicialmente vamos criar 3 dataframes: df_petroleo, df_gas_natural e df_lgn
+Execute producao_petroleo_gas_lgn.ipynb.
+
+Inicialmente vamos criar 3 dataframes: df_petroleo, df_gas_natural e df_lgn.
+
 No primeiro gráfico juntaremos df_petroleo e df_lgn para apresentar em um gráfico pois ambos tem a mesma unidade de medida em metros cúbicos.
-No segundo gráfico utilizaremos df_gas_natural pois sua unidade de medida está em 1000 metros cúbicos
+
+No segundo gráfico utilizaremos df_gas_natural pois sua unidade de medida está em 1000 metros cúbicos.
+
 Antes de gerar o gráfico criamos duas bases de dados uma para cada gráfico onde fazemos o somatório de produção mês de cada produto.
 
 Após a execução de todos os passos você vai gerar 3 htmls o último tem os dois gráficos no mesmo html.
