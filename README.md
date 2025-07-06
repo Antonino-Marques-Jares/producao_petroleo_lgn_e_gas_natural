@@ -1,7 +1,7 @@
-# producao_petroleo_lgn_e_gas_natural
-Produção Mensal de Petróleo, LGN e Gás Natural no Brasil
+# Produção mensal de petróleo, lgn e gas_natural no Brasil
 
-![Porto](porto.jpg)
+
+![Porto](plataforma_de_petróleo.jpg)
 
 # Instalações Portuárias
 O mapa apresenta de forma **agrupada as instalações portuárias por Município** e informando o **Nome da Instalação, Tipo, Município, Estado e Endereço** das instalações no Município.
