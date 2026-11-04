@@ -1,5 +1,5 @@
 # Produção mensal de petróleo, lgn e gas_natural no Brasil em Metros Cúbicos
-A produção de Gás Natural estava na unidade de medida de 1000 Metros Cúbicos, foi nescessário colocar todos na mesma unidade de MÉTRO CÚBICO (M3). 
+A produção de Gás Natural estava na unidade de medida de 1000 Metros Cúbicos, portanto padronizamos todos na unidade de medida de MÉTRO CÚBICO (M3). 
 
 ![Porto](plataforma_de_petróleo.jpg)
 
